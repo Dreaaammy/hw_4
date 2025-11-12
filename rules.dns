@@ -1,0 +1,4 @@
+qname ~ \.zip$ ; action=drop
+qname ~ \.mov$ ; action=drop
+qname ~ doge|meme|lol ; action=drop
+dst_port in {53,5353} ; action=accept
